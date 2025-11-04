@@ -1,4 +1,34 @@
 {
+  "scanqa_images": {
+    "file_name": "scanqa_images_16_keyframes_120_non_keyframes_504x504_train.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages",
+      "images": "images"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  },
+  "scanqa_images_w_gt": {
+    "file_name": "scanqa_images_16_keyframes_120_non_keyframes_504x504_train_with_key_frames.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages",
+      "images": "images"
+    },
+    "tags": {
+      "role_tag": "role",
+      "content_tag": "content",
+      "user_tag": "user",
+      "assistant_tag": "assistant",
+      "system_tag": "system"
+    }
+  },
   "identity": {
     "file_name": "identity.json"
   },
